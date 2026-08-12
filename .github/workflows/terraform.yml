@@ -18,3 +18,4 @@ jobs:
         run: terraform version
       - name: Terraform Init
         run: terraform init
+        working-directory: ./Parent
