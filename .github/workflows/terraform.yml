@@ -16,3 +16,5 @@ jobs:
 
       - name: Show Terraform Version
         run: terraform version
+      - name: Terraform Init
+        run: terraform init
