@@ -22,3 +22,6 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
         working-directory: ./Parent
+      - name: Terraform Plan
+        run: terraform plan
+        working-directory: ./Parent
